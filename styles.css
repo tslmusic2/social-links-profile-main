@@ -12,7 +12,9 @@ html body {
         background-color: hsl(0, 0%, 8%);
         color: var(--main-text);
         box-sizing: border-box;
+        height: 100vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
 }
@@ -20,7 +22,6 @@ html body {
 .profile-info {
         width: 300px;
         height: 450px;
-        margin: 0 auto;
         background-color: var( --card-bd);
         border-radius: 10px;
         padding: 30px;
@@ -34,12 +35,14 @@ html body {
 
 .profile-links {
         list-style:none;
+        margin: 0;
+        padding: 0;
 }
 
 .links {
         background-color: var(--links-bg);
         margin: 10px auto;
-        padding: .5em 1em;
+        padding: .75em 1em;
         border-radius: 5px;
 }
 .profile-links a {
@@ -49,4 +52,5 @@ html body {
 
 footer {
         border: 3px solid yellow;
+        margin: 0 auto;
 }
