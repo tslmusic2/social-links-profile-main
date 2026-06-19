@@ -60,6 +60,8 @@ html body {
         font-weight: 700;
 }
 
+/*I NEED FULL HOVER FONT TO BE BLACK*/
+
 .links:hover {
         background-color: var(--hover-bg);
         cursor: pointer;
