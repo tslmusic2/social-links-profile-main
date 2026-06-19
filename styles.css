@@ -20,30 +20,58 @@ html body {
 }
 
 .profile-info {
-        width: 300px;
-        height: 450px;
+        width: 165px;
+        height: 285px;
         background-color: var( --card-bd);
         border-radius: 10px;
-        padding: 30px;
+        padding: 20px;
+        font-size: .5em;
 }
 
 .profile-img {
-        width: 75px;
+        width: 45px;
         border-radius: 50%;
 }
 
+.profile-info h1 {
+        margin: 15px auto 5px auto;
+}
+.location {
+        color: var(--hover-bg);
+        margin: 0 10px auto auto;
+        font-weight: 700;
+}
+
+.bio {
+        margin: 15px auto;
+        color: lightgray
+}
 
 .profile-links {
         list-style:none;
         margin: 0;
         padding: 0;
+        font-size: .5rem;
+        font-weight: 400;
+}
+
+.profile-links a:hover {
+        color: var(--card-bd);
+        font-weight: 700;
+}
+
+.links:hover {
+        background-color: var(--hover-bg);
+        cursor: pointer;
+        color: var(--card-bd);
 }
 
 .links {
         background-color: var(--links-bg);
-        margin: 10px auto;
-        padding: .75em 1em;
+        margin: .5rem auto;
+        padding: 1.1em 1em;
         border-radius: 5px;
+        font-size: .45rem;
 }
 .profile-links a {
         text-decoration: none;
@@ -51,6 +79,5 @@ html body {
 }
 
 footer {
-        border: 3px solid yellow;
-        margin: 0 auto;
+        margin: 20px auto 0  auto;
 }
