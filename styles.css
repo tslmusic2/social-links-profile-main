@@ -20,8 +20,6 @@ html body {
 }
 
 .profile-info {
-        width: 165px;
-        height: 285px;
         background-color: var( --card-bd);
         border-radius: 10px;
         padding: 20px;
